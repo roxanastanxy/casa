@@ -1,0 +1,49 @@
+.container{
+    width:1200px;
+    height:1200px;
+    background-image: url(img/cielo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left:350px;
+    
+}
+.hierba{
+    background-image: url(img/ground.svg);
+    position: absolute;
+    bottom: 0;
+    width:1200px;
+    height: 200px;
+}
+.arbol{
+    background-image: url(img/arbol.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:0;
+    bottom:50px;
+    height: 300px;
+    width: 300px;
+}
+
+
+.nube1{
+    background-image: url(img/big-cloud.svg);
+     background-size: cover;
+    position: absolute;
+    
+    height: 200px;
+    width: 300px;
+    right:250px;
+    top:50px;
+}
+.sol{
+    background-image: url(img/sol1.png);
+    background-size: cover;
+    position: absolute;
+    
+    height: 200px;
+    width: 200px;
+    left:350px;
+    top:50px;
+}
