@@ -192,6 +192,16 @@ left:0;
 right: 300px;  
   top:250px;
 }
+.humo{
+        background-image: url(img/humo.png);
+  height:50px;
+    width: 50px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+right: 340px;  
+  top:240px;
+}
 .antena{
        background-image: url(img/antena.png);
   height:50px;
