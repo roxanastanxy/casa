@@ -213,3 +213,8 @@ right: 300px;
   top:450px;
     z-index: 1;
 }
+footer{
+    position: absolute;
+    bottom: 0;
+    left:20px;
+}
