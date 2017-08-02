@@ -5,7 +5,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    left:350px;
+    
+    margin: auto
     
 }
 .hierba{
@@ -21,8 +22,8 @@
     background-repeat: no-repeat;
     position: absolute;
     left:0;
-    bottom:50px;
-    height: 300px;
+    bottom:20px;
+    height: 400px;
     width: 300px;
 }
 
@@ -34,8 +35,8 @@
     
     height: 200px;
     width: 300px;
-    right:250px;
-    top:50px;
+    right:150px;
+    top:20px;
 }
 .sol{
     background-image: url(img/sol1.png);
@@ -44,6 +45,161 @@
     
     height: 200px;
     width: 200px;
-    left:350px;
-    top:50px;
+    left:650px;
+    top:20px;
+}
+.nube{
+    background-image: url(img/arcoiris.png);
+    height:220px;
+    width: 400px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:100px;
+    
+}
+.tejado{
+     background-image: url(img/tejado.png);
+    height:800px;
+    width:800px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:400px;
+   bottom:180px;
+}
+.fachada{
+    background-image: url(img/fachada.jpg);
+    height:400px;
+    width: 500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left:550px;   
+   bottom:50px;
+}
+.puerta{
+     background-image: url(img/puerta.png);
+  height:400px;
+    width: 250px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+ right: 280px;  
+   bottom:50px;
+}
+.ventana1{
+    background-image: url(img/gato.gif);
+  height:100px;
+    width:150px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+left:570px;  
+   bottom:300px;
+    border: double 4px green;
+}
+.ventana2{
+       background-image: url(img/homer.gif);
+  height:100px;
+    width:160px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: absolute;
+right:180px;  
+   bottom:300px;
+    border: double 4px green;
+}
+.columpio{
+        background-image: url(img/columpio.png);
+  height:200px;
+    width: 250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+left: 180px;  
+   bottom:20px;
+}
+.nino{
+        background-image: url(img/nino.png);
+  height:100px;
+    width: 250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+left: 300px;  
+   bottom:20px;
+}
+.perro{
+         background-image: url(img/perro.png);
+  height:100px;
+    width: 250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+right: 300px;  
+   bottom:20px;
+}
+.gato{
+          background-image: url(img/garfieldfull.svg);
+  height:100px;
+    width: 250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+right:70px;  
+   bottom:20px;
+}
+.chimenea{
+          background-image: url(img/chimenea.png);
+  height:100px;
+    width: 250px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+right: 300px;  
+  top:500px;
+}
+.pajaros{
+          background-image: url(img/pajaros.png);
+  height:300px;
+    width: 400px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+left: 300px;  
+  top:300px;
+    z-index:1;
+}
+.bosque{
+             background-image: url(img/bosque.svg);
+  height:250px;
+    width:1200px;
+    background-size:contain;
+   
+    position: absolute;
+left:0;  
+ bottom:50px;
+   
+}
+.avion{
+      background-image: url(img/avion.svg);
+  height:50px;
+    width: 50px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+right: 300px;  
+  top:250px;
+}
+.antena{
+       background-image: url(img/antena.png);
+  height:50px;
+    width: 50px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+right: 300px;  
+  top:450px;
+    z-index: 1;
 }
